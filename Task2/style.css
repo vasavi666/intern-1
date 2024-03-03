@@ -1,0 +1,39 @@
+.container {
+        width:28%;
+        margin:100px auto ;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin:30px 0;
+    font-size: 19px;
+    
+}
+form label {
+    margin: 5px 0;
+}
+form input[type="text"],input[type="password"]{
+    height: 55px;
+    margin: 5px 0;
+    border:0.5px solid black;
+    border-radius: 3px;
+    padding: 0 15px;
+    font-size: 20px;
+    font-family: "Nunito",sans-serif;
+}
+form input[type="submit"] {
+    height: 50px;
+    background:  mediumblue;
+    font-size: 20px;
+    font-family:"Nunito",sans-serif; 
+    color: white;
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+}
+form input[type="submit"]:hover{
+    box-shadow: var(--hover-shadow);
+    transform: translate(-4px);
+}
+ 
+ 
+
