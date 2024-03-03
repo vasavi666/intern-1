@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto:wght@100&display=swap');
+        .container {
+            background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/foodbg.png");
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            width: 30vw;
+            position: relative;
+        }
+
+        .color-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width:28vw;
+            height:25%;
+            background-color: #f6c56e;
+            padding-left: 30px;       
+        }
+        button{
+            width: 36%;
+            height: 18%;
+            cursor: pointer;
+            background-color: #ffffff;
+            border-radius: 10px;
+            border-color:#ffffff;
+            padding-left: 30px;
+        }
+
+    </style>
+
+    <div class="container">
+        <div class="color-overlay">
+            <left>
+                <p style="color:#323f4b">
+                    <h1 style="text-align: left">Happy Meals</h1>
+                    <h3 style="text-align: left">Discover the best foods over the 1,000 <br>restaurants</h3>
+                    <button style="text-align: left">Book Now</button>
+                </p>
+            </left>
+        </div>
+    </div>
+</body>
+</html>
